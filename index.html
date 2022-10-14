@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1Drvs | download Drivers in 1drvs</title>
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/mainpage.css" rel="stylesheet">
+  <link href="/css/mainstyle.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #EBEBEB;height: 100%;">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light-1 mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="/">YanXin-3drvs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" id="navbarSupportedContent">
+          <div class="nav-item">
+            <a class="nav-link active" href="/s/?id=Softs">软件厅>>></a>
+          </div>
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">首页</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main_container">
+    <div class="rows row1">
+      <div class="alert bg-white bg-gradient row1-wd">
+        <div class="row">
+          <div class="head_weather">
+            <div class="spinner-border" role="status">
+            </div>
+            <span>3drvs驱动站已部署10%</span>
+          </div>
+          <div class="txt_ct head_time">
+            <div id="timenow1"></div>
+            <div id="timedate1"></div>
+          </div>
+        </div class="row">
+      </div>
+    </div>
+
+    <div class="rows row2">
+      <div class="alert bg-white bg-gradient row1-wd">
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">戴尔产品支持</span>
+          <input id="scb_dell" type="text" class="form" id="basic-url" aria-describedby="basic-addon1"
+            onkeydown="keyup_submit()">
+          <input id="btn_dell" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <a href="https://newsupport.lenovo.com.cn/"><span class="input-group-text row2-search-text"
+              id="basic-addon3">联想产品支持</span></a>
+          <input id="scb_leno" type="text" class="form" id="basic-url" aria-describedby="basic-addon2"
+            onkeydown="keyup_submit()">
+          <input id="btn_leno" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">华硕产品支持</span>
+          <input id="scb_asus" type="text" class="form" id="basic-url" aria-describedby="basic-addon3"
+            onkeydown="keyup_submit()">
+          <input id="btn_asus" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">华为产品支持</span>
+          <input id="scb_wawy" type="text" class="form" id="basic-url" aria-describedby="basic-addon3"
+            onkeydown="keyup_submit()">
+          <input id="btn_wawy" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">惠普产品支持</span>
+          <input id="scb_hupu" type="text" class="form" id="basic-url" aria-describedby="basic-addon4"
+            onkeydown="keyup_submit()">
+          <input id="btn_hupu" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">美国苹果产品支持</span>
+          <input id="scb_appl" type="text" class="form" id="basic-url" aria-describedby="basic-addon4"
+            onkeydown="keyup_submit()">
+          <input id="btn_appl" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">打印机产品支持</span>
+          <input id="scb_prnt" type="text" class="form" id="basic-url" aria-describedby="basic-addon4"
+            onkeydown="keyup_submit()">
+          <input id="btn_prnt" type="button" class="btn" onclick="searching()" />
+        </div>
+
+        <div class="input-group mb-3 row2-search">
+          <span class="input-group-text row2-search-text" id="basic-addon3">备用选项暂时禁用</span>
+          <input id="scb_ua" type="text" class="form e-stopmouse" id="basic-url" aria-describedby="basic-addon4"
+            onkeydown="keyup_submit()">
+          <input id="btn_ua" type="button" class="btn" onclick="searching()" />
+        </div>
+      </div>
+    </div>
+
+    <div class="rows row2">
+      <div class="alert bg-white bg-gradient row1-wd">
+        <div class="rows">
+          <span class="col row2-card">
+            <div>
+              >
+            </div>
+          </span>
+          <span class="col row2-card">
+            <div>
+              >
+            </div>
+          </span>
+          <span class="col row2-card">
+            <div>
+              >
+            </div>
+          </span>
+          <span class="row2-card-tmp">
+            <div>
+              >
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script>
+
+      function diskid() {
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        var ff = fso.GetDrive("c");
+        alert("这是C盘序号：" + ff.SerialNumber);
+      }
+
+      function searching() {
+        alert("now touch");
+      }
+
+      function keyup_submit(e) {
+        var evt = window.event || e;
+        if (evt.keyCode == 13) {
+          var idd = event.target.id
+          var ele = document.getElementById(event.target.id).value;
+          //alert(idd+' （ ~ · w · ~ ） '+ele)
+          if (idd == "scb_dell") {
+            window.location.href = 'https://www.dell.com/support/home/zh-hk/product-support/servicetag/' + ele + '/overview';
+          }
+          else if (idd == "scb_leno") {
+            if (ele.length > 19) {
+              ele = ele.slice(2, ele.length)
+              window.location.href = 'https://newsupport.lenovo.com.cn/driveList.html?fromsource=driveList&selname=' + ele;
+            }
+            else if (ele.length > 10) {
+              ele = ele.slice(6, 8) + ele
+              ele = ele.slice(0, 8)
+              window.location.href = 'https://newsupport.lenovo.com.cn/driveList.html?fromsource=driveList&selname=' + ele;
+            }
+            else {
+              window.location.href = 'https://newsupport.lenovo.com.cn/driveList.html?fromsource=driveList&selname=' + ele;
+            }
+          }
+          else if (idd == "scb_hupu") {
+            window.location.href = 'https://support.hp.com/hk-zh/deviceSearch?q=' + ele + '&origin=pdp';
+            //  hp-pps-services/clc/cc/cn/lc/zh/oid/"+seriesNum;
+          }
+          else if (idd == "scb_asus") {
+            window.location.href = 'https://www.baidu.com/s?ie=utf-8&f=8&wd=' + ele + ' asus.com';
+          }
+          else if (idd == "scb_appl") {
+            window.location.href = 'https://checkcoverage.apple.com/cn/zh/?sn=' + ele;
+          }
+          else if (idd == "scb_wawy") {
+            window.location.href = 'https://consumer.huawei.com/cn/support/warranty-query/?' + ele;
+          }
+          else if (idd == "scb_prnt") {
+            diskid();
+          }
+          else if (idd == "scb_ua") {
+            var agent = navigator.userAgent.toLowerCase();
+            alert(agent);
+            setTimeout(function () {
+              window.location.href = '#';
+            }, 5000);
+          }
+        }
+      }
+
+      var agent = navigator.userAgent.toLowerCase();
+      var isMac = function () {
+        return /macintosh|mac os x/i.test(navigator.userAgent);
+      }();
+      if (agent.indexOf("windows") >= 0) {
+        if (agent.indexOf("nt 10") >= 0 || agent.indexOf("nt 11") >= 0) {
+          if (agent.indexOf("win32") >= 0 || agent.indexOf("wow32") >= 0) {
+            console.log("芝士Win10-32位");
+          } else if (agent.indexOf("win64") >= 0 || agent.indexOf("wow64") >= 0) {
+            console.log("芝士Win10-64位");
+          }
+        } else if (agent.indexOf("nt 7") >= 0) {
+          if (agent.indexOf("win32") >= 0 || agent.indexOf("wow32") >= 0) {
+            console.log("芝士Win7-32位");
+          } else if (agent.indexOf("win64") >= 0 || agent.indexOf("wow64") >= 0) {
+            console.log("芝士Win7-64位");
+          }
+        }
+      }
+
+      if (isMac) {
+        console.log("芝士MacOS");
+      }
+
+      (function () {
+        'use strict'
+        var devtools = {
+          open: false,
+          orientation: null
+        }
+        var threshold = 160
+        var emitEvent = function (state, orientation) {
+          window.dispatchEvent(new CustomEvent('devtoolschange', {
+            detail: {
+              open: state,
+              orientation: orientation
+            }
+          }))
+        }
+        setInterval(function () {
+          var widthThreshold = window.outerWidth - window.innerWidth > threshold
+          var heightThreshold = window.outerHeight - window.innerHeight > threshold
+          var orientation = widthThreshold ? 'vertical' : 'horizontal'
+
+          if (!(heightThreshold && widthThreshold) &&
+            ((window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) || widthThreshold || heightThreshold)) {
+            if (!devtools.open || devtools.orientation !== orientation) {
+              emitEvent(true, orientation)
+            }
+            devtools.open = true
+            devtools.orientation = orientation
+          } else {
+            if (devtools.open) {
+              emitEvent(false, null)
+            }
+            devtools.open = false
+            devtools.orientation = null
+          }
+        }, 500)
+        if (typeof module !== 'undefined' && module.exports) {
+          module.exports = devtools
+        } else {
+          window.devtools = devtools
+        }
+      })();
+
+      window.addEventListener('devtoolschange', function (e) {
+        if (e.detail.open) {
+          document.getElementsByTagName('body')[0].innerHTML = '<h1>警告：</h1><h3>请登录后再进行后台编辑</h3><h5 style="color:#999">code: 0xc000007125</h5>';
+        }
+      })
+
+    </script>
+</body>
+
+</html>
